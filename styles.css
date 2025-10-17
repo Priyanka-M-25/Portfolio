@@ -585,4 +585,31 @@ img {
   .home__img {
     width: 450px;
   }
+  /* ===== MOBILE / SMALL SCREENS ===== */
+@media screen and (max-width: 575px) {
+  
+  /* Soft skills stack below technical skills */
+  .soft-skills {
+    float: none;          
+    width: 100%;          
+    margin: 2rem auto 0 auto; /* spacing below technical skills */
+  }
+
+  /* Adjust skills image for small screens */
+  .skills__img {
+    float: none;
+    display: block;
+    margin: 0 auto 2rem auto;
+    width: 80%;           /* smaller image for phones */
+  }
+
+  /* Download CV button spacing */
+  .button {
+    display: block;       /* make it take full width line */
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0 1rem 0; /* push slightly below */
+  }
+
+
 }
